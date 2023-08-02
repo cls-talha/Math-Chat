@@ -1,17 +1,22 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
+from llm_api import *
 
-app = Flask(__name__)
+
+chatLLAMA = LLM(get_apiKey()) #create an instance of the LLM class
+app = Flask(__name__) #create the flask app
+
 
 @app.route('/')
-def index():
-    # Sample messages (you can replace these with actual messages from your backend)
-    messages = [
-        {"name": "John", "text": "Hello, how are you?", "time": "9:00 AM"},
-        {"name": "Jane", "text": "I'm doing great! What about you?", "time": "9:05 AM"},
-        {"name": "John", "text": "I'm doing well too, thanks!", "time": "9:10 AM"},
-    ]
+def homePage():
+    return render_template('index.html') #render the html template
 
-    return render_template('index.html', messages=messages)
+
+@app.route("/get")
+def get_bot_response():
+    userText = request.args.get('msg')
+    return chatLLAMA.get_reply(userText)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
+

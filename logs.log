@@ -1,0 +1,28 @@
+INFO:2023-08-02 16:11:18:Loading Api key.
+INFO:2023-08-02 16:11:18:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:2023-08-02 16:11:18:[33mPress CTRL+C to quit[0m
+INFO:2023-08-02 16:11:18: * Restarting with stat
+INFO:2023-08-02 16:11:18:Loading Api key.
+WARNING:2023-08-02 16:11:18: * Debugger is active!
+INFO:2023-08-02 16:11:18: * Debugger PIN: 268-856-632
+INFO:2023-08-02 16:11:39:127.0.0.1 - - [02/Aug/2023 16:11:39] "GET / HTTP/1.1" 200 -
+INFO:2023-08-02 16:11:39:127.0.0.1 - - [02/Aug/2023 16:11:39] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+INFO:2023-08-02 16:13:24: * Detected change in '/home/talha/Documents/mathchat/llm_api.py', reloading
+INFO:2023-08-02 16:13:24: * Restarting with stat
+INFO:2023-08-02 16:13:24:Loading Api key.
+WARNING:2023-08-02 16:13:24: * Debugger is active!
+INFO:2023-08-02 16:13:24: * Debugger PIN: 268-856-632
+INFO:2023-08-02 16:14:37:Loading Api key.
+INFO:2023-08-02 16:14:37:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:2023-08-02 16:14:37:[33mPress CTRL+C to quit[0m
+INFO:2023-08-02 16:14:37: * Restarting with stat
+INFO:2023-08-02 16:14:37:Loading Api key.
+WARNING:2023-08-02 16:14:37: * Debugger is active!
+INFO:2023-08-02 16:14:37: * Debugger PIN: 268-856-632
+INFO:2023-08-02 16:14:46: * Detected change in '/home/talha/Documents/mathchat/llm_api.py', reloading
+INFO:2023-08-02 16:14:46: * Restarting with stat
+INFO:2023-08-02 16:14:47:Loading Api key.
+WARNING:2023-08-02 16:14:47: * Debugger is active!
+INFO:2023-08-02 16:14:47: * Debugger PIN: 268-856-632
